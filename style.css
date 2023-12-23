@@ -22,8 +22,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1.5px solid #7a7c7d;
+    border-bottom: 1.5px solid white;
     padding: 1rem;
+    /* background-color: white; */
+    width: 95%;
 }
 
 .logo{
@@ -317,6 +319,16 @@ input{
         max-width: 100%;
     }
 
+    .header{
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1.5px solid #7a7c7d;
+        padding: 1rem;
+        background-color: white;
+    }
+
    .logo{
      width: 6rem;
    }
@@ -334,6 +346,7 @@ input{
 
    .show{
     display: flex;
+    position: fixed;
    }
 
    .show li{
@@ -354,12 +367,20 @@ input{
     border: none;
    }
 
+   .overall{
+    margin-top: 5rem;
+   }
+
    .main{
     flex-direction: column;
     width: 100%;
     margin-top: 1rem;
+    
    }
 
+   .advert{
+    border-radius: 3px 3px 0 0;
+   }
    .checkout-details{
     order: 2;
    }
